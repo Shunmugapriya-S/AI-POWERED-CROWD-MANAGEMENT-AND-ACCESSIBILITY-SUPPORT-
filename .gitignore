@@ -1,0 +1,55 @@
+# API Keys and Credentials
+firebase_key.json
+.env
+.env.local
+*.key
+*.pem
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Large files
+*.pt
+*.pth
+*.h5
+*.pkl
+
+# Cache and temp files
+*.cache
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS files
+Thumbs.db
+.DS_Store
