@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "pickup_requests": {
+      ".indexOn": ["status", "route", "timestamp", "priority"],
+      "$request_id": {
+        ".validate": "newData.hasChildren(['passenger_id', 'status'])"
+      }
+    },
+    "requests": {
+      ".indexOn": ["status", "priority", "distance"],
+      "$request_id": {
+        ".validate": "newData.hasChildren(['status'])"
+      }
+    },
+    "login_logs": {
+      ".indexOn": ["timestamp"]
+    },
+    "disabled_login_logs": {
+      ".indexOn": ["timestamp"]
+    },
+    ".read": true,
+    ".write": true
+  }
+}

@@ -1,0 +1,12 @@
+streamlit
+pandas
+ultralytics
+opencv-python
+pillow
+numpy
+torch
+torchvision
+firebase-admin
+requests
+flask
+flask-cors
