@@ -1,8 +1,8 @@
 # 🚌 Tamil Nadu Smart Bus - Live Crowd Detection
 
-## ✨ Features
+##  Features
 
-### 🎥 Live Crowd Detection (Railway Obstacle Detection மாதிரி)
+### 🎥 Live Crowd Detection 
 - **Real-time camera feed** with YOLO detection
 - **Live people counting** with bounding boxes
 - **Automatic crowd level** classification (Low/Medium/High)
@@ -110,24 +110,6 @@ elif count < 30:
     self.crowd_level = "Medium"
 else:
     self.crowd_level = "High"
-```
-
----
-
-## 📁 Project Structure
-
-```
-smart bus/
-├── app.py                      # Main Streamlit app
-├── live_crowd_detector.py      # Live detection module
-├── routedata1.csv             # Bus routes
-├── stopdata.csv               # Bus stops
-├── background.png             # Background image
-├── *.png                      # Role images
-└── requirements.txt           # Dependencies
-```
-
----
 
 ## 🐛 Troubleshooting
 
@@ -144,9 +126,7 @@ smart bus/
 ### App not loading:
 - Check all dependencies installed
 - Ensure CSV files exist
-- Restart Streamlit server
-
----
+- Restart Streamlit serve
 
 ## 💡 Tips
 
@@ -173,18 +153,6 @@ Camera → YOLO Detection → Background Thread → Live Display
 
 ---
 
-## 📝 Tamil Guide
-
-### பயன்படுத்தும் முறை:
-
-1. **App-ஐ run செய்யவும்**: `streamlit run app.py`
-2. **Passenger select செய்யவும்**
-3. **Route தேர்வு செய்யவும்**
-4. **"Start Live Detection" click செய்யவும்**
-5. **Camera தானாக open ஆகும்**
-6. **Live-ஆ people count பார்க்கலாம்**
-7. **"Track Bus" click செய்து bus location பார்க்கலாம்**
-
 ---
 
 ## ✅ Status
@@ -198,4 +166,5 @@ Camera → YOLO Detection → Background Thread → Live Display
 **Run**: `streamlit run app.py`
 **Access**: http://localhost:8501
 
-**Made with ❤️ for Tamil Nadu**
+
+
